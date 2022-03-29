@@ -28,6 +28,7 @@ Styling in this lab is secondary to completing the functionality
     Cards should contain the text of the starship's name.
 
 For example:
+![starwars](https://user-images.githubusercontent.com/49138373/160515647-5a7bf6c2-a28b-490d-84ae-d3d5b6eb85e6.png)
 
 Hints
 
