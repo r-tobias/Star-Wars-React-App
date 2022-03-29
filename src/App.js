@@ -5,9 +5,10 @@ import { getAllStarships } from './services/sw-api';
 function App() {
   const [starships, setStarships] = useState([])
 
-useEffect(async () => {
-  const allStarships = await getAllStarships()
-  setStarships(allStarships)
+useEffect(() => {
+  getAllStarships().then((data) => {
+    setStarships(data)
+  })
 
 }, []);
 
